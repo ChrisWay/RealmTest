@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:RealmTest"
              x:Class="RealmTest.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Entry Text="{Binding Captain.Name}" />
+        <Entry Text="{Binding Captain.Age}" />
+    </StackLayout>
 
 </ContentPage>
